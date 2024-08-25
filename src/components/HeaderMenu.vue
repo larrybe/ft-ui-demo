@@ -17,19 +17,19 @@ const open = ref(false)
         <nav>
           <menu class="flex flex-col gap-y-1.5">
             <li>
-              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="/explore">Home</RouterLink>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" to="/explore">Home</RouterLink>
             </li>
             <li>
-              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Login/Sign Up</RouterLink>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" to="">Login/Sign Up</RouterLink>
             </li>
             <li>
-              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Search</RouterLink>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" to="">Search</RouterLink>
             </li>
             <li>
-              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">About</RouterLink>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" to="">About</RouterLink>
             </li>
             <li>
-              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Contact Us</RouterLink>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" to="">Contact Us</RouterLink>
             </li>
           </menu>
         </nav>

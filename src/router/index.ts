@@ -3,6 +3,7 @@ import HomeView from '@/views/HomeView.vue'
 import ExploreView from '@/views/ExploreView.vue'
 import StoryView from '@/views/StoryView.vue'
 import UserView from '@/views/UserView.vue'
+import TagView from '@/views/TagView.vue'
 import FourOhFour from '@/components/FourOhFour.vue'
 
 const router = createRouter({
@@ -41,6 +42,11 @@ const router = createRouter({
     },
     {
       path: '/user/:id',
+      name: 'user',
+      component: UserView
+    },
+    {
+      path: '/tag/:id',
       name: 'user',
       component: UserView
     },

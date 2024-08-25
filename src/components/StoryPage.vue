@@ -19,7 +19,7 @@ import StoryTags from './storylist_components/StoryTags.vue'
         <StoryHeader :profile_photo="''" :user="'Sample User'" :username="'sampleuser'" :location="'Springfield, Missouri, USA'" />
         <StoryPhoto :full_photo="true" />
         <StoryAuthorAndWhen :name="'Sample User'" :username="'sampleuser'" :time="1724308529000" />
-        <StoryTale :tale="'This component is similar to storylist component on ExplorePage but the full picture and full text is shown instead. REMEMBER: Shortening the text on ExplorePage is not done. ALSO REMEBER: TODO: clicking on the image above should have the image fill the page.'"></StoryTale>
+        <StoryTale :tale="'This component is similar to storylist component on ExplorePage but the full picture and full text is shown instead. REMEMBER: Shortening the text on ExplorePage is not done. ALSO REMEBER: TODO: clicking on the image above should have the image fill the page. A photoblog (or photolog) is a form of photo sharing and publishing in the format of a blog. It differs from a blog through the predominant use of and focus on photographs rather than text. Photoblogging (the action of posting photos to a photoblog) gained momentum in the early 2000s with the advent of the moblog and cameraphones. '"></StoryTale>
         <StoryTags :tags="['This','is','a','sample page']" />
       </article>
     </div>

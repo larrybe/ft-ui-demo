@@ -47,8 +47,8 @@ const router = createRouter({
     },
     {
       path: '/tag/:id',
-      name: 'user',
-      component: UserView
+      name: 'tag',
+      component: TagView
     },
     {
       path: '/:pathMatch(.*)*',

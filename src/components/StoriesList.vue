@@ -50,7 +50,7 @@ onMounted(() => {
       :key="story.id"
       class="box-border px-3 py-4 flex flex-col gap-1 bg-white hover:bg-gradient-to-b from-teal-100 to-sky-100"
     >
-    <a :href="'/story/'+story.id">
+    <RouterLink :href="'/story/'+story.id">
       <StoryHeader
         :profile_photo="accounts[story.account].profile_photo"
         :user="accounts[story.account].user[0]"
@@ -61,7 +61,7 @@ onMounted(() => {
       <StoryAuthorAndWhen :name="accounts[story.account].user" :username="accounts[story.account].username" :time="story.time"/>
       <StoryTale :tale="story.tale" />
       <StoryTags :tags="story.tags" />
-    </a>
+    </RouterLink>
     </article>
   
   </main>

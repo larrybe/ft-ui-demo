@@ -17,19 +17,19 @@ const open = ref(false)
         <nav>
           <menu class="flex flex-col gap-y-1.5">
             <li>
-              <a class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="/explore">Home</a>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="/explore">Home</RouterLink>
             </li>
             <li>
-              <a class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Login/Sign Up</a>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Login/Sign Up</RouterLink>
             </li>
             <li>
-              <a class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Search</a>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Search</RouterLink>
             </li>
             <li>
-              <a class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">About</a>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">About</RouterLink>
             </li>
             <li>
-              <a class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Contact Us</a>
+              <RouterLink class="text-lg hover:text-2xl p-1 text-black hover:text-slate-950  bg-slate-300 hover:bg-gradient-to-r from-amber-300 to-sky-300 rounded-lg" href="">Contact Us</RouterLink>
             </li>
           </menu>
         </nav>

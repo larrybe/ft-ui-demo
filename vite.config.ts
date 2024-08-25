@@ -7,6 +7,7 @@ import nightwatchPlugin from 'vite-plugin-nightwatch'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/ft-ui-demo/",
   plugins: [vue(), vueJsx(), nightwatchPlugin()],
   resolve: {
     alias: {

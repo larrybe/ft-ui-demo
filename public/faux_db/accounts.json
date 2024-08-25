@@ -1,0 +1,17 @@
+[
+  {
+    "user": "Sam Profile",
+    "username": "samprofile",
+    "profile_photo": null
+  },
+  {
+    "user": "Autumn Goodman",
+    "username": "agoodman",
+    "profile_photo": "bucket/photo-1492633423870-43d1cd2775eb.jpg"
+  },
+  {
+    "user": "Kevin Keith",
+    "username": "kevkeith002",
+    "profile_photo": "bucket/kevin-keith-iQLDjvjX88c-unsplash.jpg"
+  }
+]
